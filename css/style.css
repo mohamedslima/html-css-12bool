@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
 
+/* Temporary settings */
+
+div.box {
+    padding: 20px 0;
+    text-align: center;
+}
+
+div.container.n2 {
+    margin-top: 50px;
+}
+
 /* Settings container and row */
 
 div.container {
@@ -24,7 +35,8 @@ div.row {
 
 div.col-1 {
     flex-basis: calc((100% / 12) * 1);
-    border: 4px solid black;
+    max-width: calc((100% / 12) * 1);
+    border: 2px solid black;
 
     /* TEST */
     background-color: aqua;
@@ -32,7 +44,35 @@ div.col-1 {
 
 div.col-2 {
     flex-basis: calc((100% / 12) * 2);
-    border: 4px solid black;
+    max-width: calc((100% / 12) * 2);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+    border: 2px solid black;
 
     /* TEST */
     background-color: aqua;
@@ -40,7 +80,17 @@ div.col-2 {
 
 div.col-6 {
     flex-basis: calc((100% / 12) * 6);
-    border: 4px solid black;
+    max-width: calc((100% / 12) * 6);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+    border: 2px solid black;
 
     /* TEST */
     background-color: aqua;
@@ -48,7 +98,35 @@ div.col-6 {
 
 div.col-8 {
     flex-basis: calc((100% / 12) * 8);
-    border: 4px solid black;
+    max-width: calc((100% / 12) * 8);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-9 {
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-10 {
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+    border: 2px solid black;
+
+    /* TEST */
+    background-color: aqua;
+}
+
+div.col-11 {
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+    border: 2px solid black;
 
     /* TEST */
     background-color: aqua;
@@ -56,25 +134,20 @@ div.col-8 {
 
 div.col-12 {
     flex-basis: calc((100% / 12) * 12);
-    border: 4px solid black;
+    max-width: calc((100% / 12) * 12);
+    border: 2px solid black;
 
     /* TEST */
     background-color: aqua;
 }
-/* Temporary settings */
-
-div.box {
-    padding: 20px 0;
-    text-align: center;
-}
-
-div.box.green {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-}
 
 /* Settings green box and column inside */
+
+div.box.green {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 div.box.green > .col-2,
 div.box.green > .col-8,
