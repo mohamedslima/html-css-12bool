@@ -13,15 +13,11 @@ div.box {
     text-align: center;
 }
 
-div.container.n2 {
-    margin-top: 50px;
-}
-
 /* Settings container and row */
 
 div.container {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     
 }
 
@@ -154,4 +150,50 @@ div.box.green > .col-8,
 div.box.green > .col-6 {
     border: aqua 3px solid;
     background-color: greenyellow;
+}
+
+/* settings offset column */
+
+div.col-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+}
+
+div.col-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+div.col-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+}
+
+div.col-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+}
+
+div.col-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+}
+
+div.col-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+}
+
+div.col-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+}
+
+div.col-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+}
+
+div.col-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+}
+
+div.col-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+}
+
+div.col-offset-11 {
+    margin-left: calc((100% / 12) * 11);
 }
